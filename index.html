@@ -1,13 +1,71 @@
-<!doctype html>
-
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Music History</title>
+	<title>Music History</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-
 <body>
+	<div class = "container"> 
+		<div id="topbar"> 
+			<ul>
+				<li>View Music</li>
+				<li>|</li>
+				<li>Add Music</li>
+				<li>|</li>
+				<li>Profile</li>
+			</ul>
+		</div>
+		<div class="body-wrapper">
+		<div id ="filter"> 
+			
+			<div>Song Length</div>
+			<input type="range" />
+			<label for="artists">Artists</label>
+			<select name="artists"> 
+				<option  value="Option">Option</option>
+			</select>
+			<label for="album">Album</label> 
+			<select name="album">
+				<option value="Option">Option</option>
+			</select>
+			<div>
+				<input id="checkBox" type="checkbox">
+				Rock
+			
+				<input id="checkBox" type="checkbox">
+				Classical 
+			</div>
+			
+			<div>
+				<input id="checkBox" type="checkbox">
+				Pop
+				
+				<input id="checkBox" type="checkbox">
+				Jazz
+			</div>
+			
+			<div>
+				<input id="checkBox" type="checkbox">
+				Blues
+				
+				<input id="checkBox" type="checkbox">
+				Hip-Hop
+			</div>
+		</div>
+		<div id ="content">
+			<ul>
+				<li>Song Name</li>
+				Artist Name | Album Name| Genre
+				<li>Song Name</li>
+				Artist Name | Album Name| Genre
+				<li>Song Name</li>
+				Artist Name | Album Name| Genre
+			</ul>
+		</div>
+		</div>
+	</div>	
 
-
+<script src="song.js"></script>
 </body>
 </html>

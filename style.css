@@ -1,0 +1,46 @@
+#topbar { 
+	border: 1px solid black; 
+	background: #FFB4B0;
+	width: 80%;
+	margin: 70px;
+	margin-bottom: 0px;
+	height:50px;
+}
+
+#topbar > ul > li {
+	display: inline;
+	text-decoration: none;
+}
+
+#filter {
+    
+    height: 309px;
+    width: 20%;
+    background: #4DD7FA;
+   	border:1px solid black;
+   	margin-top: 0 auto;
+   	/*margin-left: 225px;*/
+   	display: inline-block;
+}
+
+.body-wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#filter  > ul > li {
+	font-family: Arial;
+	list-style: none;
+	display:inline;
+	border-right: 
+	padding-right;
+}
+#content {
+ 	width: 60%;
+	height: 300px;
+	background: #FEFEC0;
+	border: 1px solid black;
+	margin-top: 20px;
+	display: inline-block;
+ }
